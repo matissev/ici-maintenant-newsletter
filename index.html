@@ -1,25 +1,88 @@
-<!DOCTYPE html>
-<html lang="en" style="height: 100%;">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body style="background: darkgrey;margin: 0 auto;width: 100%;">
-    <div class="wrapper" style="background: darkgrey;margin: 0 auto;position: relative;width: 80%;min-height: 100%;padding: 6vw 0;">
-        <img class="img1" src="img1.jpg" alt="Image 1" style="width: 100%;margin-bottom: 3vw;">
-        <div class="video" style="margin-bottom: 3vw;width: 100%;position: relative;">
-            <a href="https://www.youtube.com/watch?v=n1EBY1Vj6GQ" target="_blank" style="position: absolute;left: 0;right: 0;top: 0;bottom: 0;"></a>
-            <img class="playbtn grey" src="logoyoutube/logoyoutubegrey.png" alt="Bouton Play" style="width: 76px;position: absolute;left: 50%;top: 50%;margin-left: -38px;margin-top: -38px;transition: opacity 0.3s ease;pointer-events: none;opacity: 1;">
-            <img class="playbtn red" src="logoyoutube/logoyoutubered.png" alt="Bouton Play" style="width: 76px;position: absolute;left: 50%;top: 50%;margin-left: -38px;margin-top: -38px;transition: opacity 0.3s ease;pointer-events: none;opacity: 0;">
-            <img src="video-thumbnail.jpg" alt="Miniature de la vidéo" style="width: 100%;">
-        </div>
-        <div class="doubleimage" style="width: 100%;">
-            <img class="img2" src="img2.jpg" alt="Image 2" style="width: 48.5%;display: inline-block;">
-            <img class="img3" src="img3.jpg" alt="Image 3" style="width: 48.5%;display: inline-block;float: right;">
-        </div>
-    </div>
-</body>
+    <title>w3newbie HTML Email</title>
+    <style>
+      .video a:hover{opacity:0.6}
+    </style>
+    <style type="text/css">
+      @media screen and (max-width: 600px) {
+      			.webkit, .outer {
+      				min-width: 400px!important;
+      			}
+      			.wrapper {
+      				background-color: green;
+      			}
+      			.full-image {
+      				width: 400px!important;
+      				max-width: 400px!important;
+      			}
+      			.two-columns {
+      				max-width: 400px!important;
+      			}
+      			.two-column-image {
+      				max-width: 190px!important;
+      			}
+      		}
+      		@media screen and (max-width: 400px) {
+      			.webkit, .outer {
+      				min-width: 250px!important;
+      			}
+      			.wrapper {
+      				background-color: green;
+      			}
+      			.full-image {
+      				width: 250px!important;
+      				max-width: 250px!important;
+      			}
+      			.two-columns {
+      				max-width: 250px!important;
+      				padding-top: 20px!important;
+      			}
+      			.two-column-image {
+      				max-width: 120px!important;
+      			}
+      			.video {
+      				padding-top: 20px!important;
+      			}
+      		}
+    </style>
+  </head>
+  <body style="Margin:0;padding:0;background-color:#a9a9a9;">
+    <center class="wrapper" style="width:100%;table-layout:fixed;background:#a9a9a9;">
+      <div class="webkit" style="min-width:600px;padding:40px 0;background-color:#a9a9a9;">
+        <table class="outer" align="center" style="Margin:0 auto;width:100%;min-width:600px;border-spacing:0;font-family:sans-serif;color:#4a4a4a;">
+          <tr>
+            <td style="padding:0;text-align: center;">
+              <img class="full-image" width="600" src="img1.jpg" alt="Image 1" style="border:0;">
+            </td>
+          </tr>
+          <tr>
+            <td class="video" style="padding:0;padding-top:40px;text-align: center; padding-top: 40px;">
+              <a href="https://www.youtube.com/watch?v=n1EBY1Vj6GQ" target="_blank" style="opacity:1;transition:opacity 0.3s ease;">
+                <img class="full-image" width="600" src="video-thumbnail.jpg" alt="Miniature de la vidéo" style="border:0;">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0;">
+              <table class="two-columns" align="center" style="border-spacing:0;width:100%;max-width:600px;text-align:center;font-size:0;padding-top:40px;padding-bottom:30px;">
+                <tr>
+                  <td class="column col-left" style="padding:0;width:100%;text-align:left;">
+                    <img class="two-column-image" width="290" style="border:0;max-width: 290px;" src="img2.jpg" alt="Image 2">
+                  </td>
+                  <td class="column col-right" style="padding:0;width:100%;text-align:right;">
+                    <img class="two-column-image" width="290" style="border:0;max-width: 290px;" src="img3.jpg" alt="Image 2">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+  </body>
 </html>

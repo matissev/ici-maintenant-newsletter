@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>w3newbie HTML Email</title>
+	<style type="text/css">
+		body {
+			Margin: 0;
+			padding: 0;
+			background-color:  #a9a9a9;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		img {
+			border: 0;
+		}
+
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			background: #a9a9a9;
+		}
+
+		.webkit {
+			min-width: 600px;
+			padding: 40px 0;
+			background-color: #a9a9a9;
+		}
+
+		.outer {
+			Margin: 0 auto;
+			width: 100%;
+			min-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+
+		.two-columns {
+			width: 100%;
+			max-width: 600px;
+			text-align: center;
+			font-size: 0;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
+
+		.video {
+			padding-top: 40px;
+		}
+
+		.video a {
+			opacity: 1;
+			transition: opacity 0.3s ease;
+		}
+
+		.video a:hover {
+			opacity: 0.6;
+		}
+
+		.two-columns .column {
+			width: 100%;
+		}
+
+		.two-columns .column.col-left {
+			text-align: left;
+		}
+
+		.two-columns .column.col-right {
+			text-align: right;
+		}
+
+		@media screen and (max-width: 600px) { 
+			.webkit, .outer {
+				min-width: 400px!important;
+			}
+
+			.wrapper {
+				background-color: green;
+			}
+
+			.full-image {
+				width: 400px!important;
+				max-width: 400px!important;
+			}
+
+			.two-columns {
+				max-width: 400px!important;
+			}
+
+			.two-column-image {
+				max-width: 190px!important;
+			}
+		}
+		@media screen and (max-width: 400px) {
+			.webkit, .outer {
+				min-width: 250px!important;
+			}
+
+			.wrapper {
+				background-color: green;
+			}
+
+			.full-image {
+				width: 250px!important;
+				max-width: 250px!important;
+			}
+
+			.two-columns {
+				max-width: 250px!important;
+				padding-top: 20px!important;
+			}
+
+			.two-column-image {
+				max-width: 120px!important;
+			}
+
+			.video {
+				padding-top: 20px!important;
+			}
+		}
+	</style>
+</head>
+<body>
+    <center class="wrapper">
+		<div class="webkit">
+			<table class="outer" align="center">
+				<tr>
+					<td style="text-align: center;">
+						<img class="full-image" width="600" src="img1.jpg" alt="Image 1">
+					</td>
+				</tr>
+				<tr>
+					<td class="video" style="text-align: center; padding-top: 40px;">
+						<a href="https://www.youtube.com/watch?v=n1EBY1Vj6GQ" target="_blank">
+							<img class="full-image" width="600" src="video-thumbnail.jpg" alt="Miniature de la vidéo">
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="two-columns" align="center">
+							<tr>
+								<td class="column col-left">
+									<img class="two-column-image" width="290" style="max-width: 290px;" src="img2.jpg" alt="Image 2">
+								</td>
+								<td class="column col-right">
+									<img class="two-column-image" width="290" style="max-width: 290px;" src="img3.jpg" alt="Image 2">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+    </center>
+</body>
+</html>
