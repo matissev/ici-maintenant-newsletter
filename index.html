@@ -12,10 +12,16 @@
         
         body {
             background: darkgrey;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .wrapper {
+            background: darkgrey;
+            margin: 0 auto;
             position: relative;
             width: 80%;
             min-height: 100%;
-            margin: 0 auto;
             padding: 6vw 0;
         }
 
@@ -86,16 +92,18 @@
     </style>
 </head>
 <body>
-    <img class="img1" src="img1.jpg" alt="Image 1">
-    <div class="video">
-        <a href="https://www.youtube.com/watch?v=n1EBY1Vj6GQ" target="_blank"></a>
-        <img class="playbtn grey" src="logoyoutube/logoyoutubegrey.png" alt="Bouton Play">
-        <img class="playbtn red" src="logoyoutube/logoyoutubered.png" alt="Bouton Play">
-        <img src="video-thumbnail.jpg" alt="Miniature de la vidéo">
-    </div>
-    <div class="doubleimage">
-        <img class="img2" src="img2.jpg" alt="Image 2">
-        <img class="img3" src="img3.jpg" alt="Image 3">
+    <div class="wrapper">
+        <img class="img1" src="img1.jpg" alt="Image 1">
+        <div class="video">
+            <a href="https://www.youtube.com/watch?v=n1EBY1Vj6GQ" target="_blank"></a>
+            <img class="playbtn grey" src="logoyoutube/logoyoutubegrey.png" alt="Bouton Play">
+            <img class="playbtn red" src="logoyoutube/logoyoutubered.png" alt="Bouton Play">
+            <img src="video-thumbnail.jpg" alt="Miniature de la vidéo">
+        </div>
+        <div class="doubleimage">
+            <img class="img2" src="img2.jpg" alt="Image 2">
+            <img class="img3" src="img3.jpg" alt="Image 3">
+        </div>
     </div>
 </body>
 </html>
