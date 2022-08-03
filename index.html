@@ -1,108 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        html {
-            height: 100%;
-        }
-        
-        body {
-            background: darkgrey;
-            margin: 0 auto;
-            width: 100%;
-        }
-
-        .wrapper {
-            background: darkgrey;
-            margin: 0 auto;
-            position: relative;
-            width: 80%;
-            min-height: 100%;
-            padding: 6vw 0;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        .img1, .video {
-            margin-bottom: 3vw;
-        }
-
-        .video {
-            width: 100%;
-            position: relative;
-        }
-
-        .video a {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
-
-        .video .playbtn {
-            position: absolute;
-            width: 76px;
-            left: 50%;
-            top: 50%;
-            margin-left: -38px;
-            margin-top: -38px;
-        }
-
-        .video .playbtn {
-            transition: opacity 0.3s ease;
-            pointer-events: none;
-        }
-
-        .video .playbtn.grey {
-            opacity: 1;
-        }     
-
-        .video .playbtn.red {
-            opacity: 0;
-        }
-
-        .video:hover .playbtn.red {
-            opacity: 1;
-        }
-
-        .video:hover .playbtn.grey {
-            opacity: 0;
-        }
-
-        .doubleimage {
-            width: 100%;
-        }
-
-        .doubleimage img {
-            display: inline-block;
-            width: 48.5%;
-        }
-
-        .doubleimage .img3 {
-            float: right;
-        }
-        
-    </style>
+    
 </head>
-<body>
-    <div class="wrapper">
-        <img class="img1" src="img1.jpg" alt="Image 1">
-        <div class="video">
-            <a href="https://www.youtube.com/watch?v=n1EBY1Vj6GQ" target="_blank"></a>
-            <img class="playbtn grey" src="logoyoutube/logoyoutubegrey.png" alt="Bouton Play">
-            <img class="playbtn red" src="logoyoutube/logoyoutubered.png" alt="Bouton Play">
-            <img src="video-thumbnail.jpg" alt="Miniature de la vidéo">
+<body style="background: darkgrey;margin: 0 auto;width: 100%;">
+    <div class="wrapper" style="background: darkgrey;margin: 0 auto;position: relative;width: 80%;min-height: 100%;padding: 6vw 0;">
+        <img class="img1" src="img1.jpg" alt="Image 1" style="width: 100%;margin-bottom: 3vw;">
+        <div class="video" style="margin-bottom: 3vw;width: 100%;position: relative;">
+            <a href="https://www.youtube.com/watch?v=n1EBY1Vj6GQ" target="_blank" style="position: absolute;left: 0;right: 0;top: 0;bottom: 0;"></a>
+            <img class="playbtn grey" src="logoyoutube/logoyoutubegrey.png" alt="Bouton Play" style="width: 76px;position: absolute;left: 50%;top: 50%;margin-left: -38px;margin-top: -38px;transition: opacity 0.3s ease;pointer-events: none;opacity: 1;">
+            <img class="playbtn red" src="logoyoutube/logoyoutubered.png" alt="Bouton Play" style="width: 76px;position: absolute;left: 50%;top: 50%;margin-left: -38px;margin-top: -38px;transition: opacity 0.3s ease;pointer-events: none;opacity: 0;">
+            <img src="video-thumbnail.jpg" alt="Miniature de la vidéo" style="width: 100%;">
         </div>
-        <div class="doubleimage">
-            <img class="img2" src="img2.jpg" alt="Image 2">
-            <img class="img3" src="img3.jpg" alt="Image 3">
+        <div class="doubleimage" style="width: 100%;">
+            <img class="img2" src="img2.jpg" alt="Image 2" style="width: 48.5%;display: inline-block;">
+            <img class="img3" src="img3.jpg" alt="Image 3" style="width: 48.5%;display: inline-block;float: right;">
         </div>
     </div>
 </body>
