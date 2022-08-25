@@ -2,14 +2,27 @@
   <mj-head>
     <mj-attributes>
       <mj-all font-family="PPNeueMachina, Arial, sans-serif"/>
+      <mj-image padding="0px"/>
     </mj-attributes>
     <mj-preview>
       This is the preview of the mail, this doesn't really have to be used
     </mj-preview>
+    <mj-breakpoint width="480px"/>
     <mj-font name="PPNeueMachina" href="https://matissev.github.io/ici-maintenant-newsletter/fonts/stylesheet.css"/>
-    <mj-style inline="inline">
+    <mj-style>
       .header-labels div {
         font-family:"PPNeueMachina", "Lucida Sans Unicode", "Lucida Grande", sans-serif!important;
+      }
+
+      @media (max-width: 480px) {
+        .mobile-full-image td {
+          width: 100%!important;
+          min-width: 100%!important;
+        }
+
+        .mobile-lead {
+          padding-top: 30px!important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -18,23 +31,40 @@
 
     <mj-section>
       <mj-column>
-        <mj-text css-class="header-labels">Installation Sonore</mj-text>
+        <mj-text css-class="header-labels" padding="0px" align="left">Installation Sonore</mj-text>
       </mj-column>
       <mj-column>
-        <mj-text css-class="header-labels">Tour du Lieu Unique — Nantes</mj-text>
+        <mj-text css-class="header-labels" padding="0px" align="center">Tour LU — Nantes</mj-text>
       </mj-column>
       <mj-column>
-        <mj-text css-class="header-labels">2021 → 2025</mj-text>
+        <mj-text css-class="header-labels" padding="0px" align="right">2021 → 2025</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="mobile-full-image" direction="rtl">
+      <mj-column>
+          <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg" align="center"></mj-image>
+      </mj-column>
+      <mj-column>
+          <mj-text css-class="mobile-lead" font-weight="bold" font-size="16px" padding="5px 20px 0px 15px">
+            Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, Ici & Maintenant est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique.
+          </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section>
-        <mj-column>
-            <mj-image src="img1.jpg"></mj-image>
-        </mj-column>
-        <mj-column>
-            <mj-image src="img1.jpg"></mj-image>
-        </mj-column>
+      <mj-column>
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/video-thumbnail.jpg" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="60%">
+        
+      </mj-column>
+      <mj-column width="40%">
+        
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
