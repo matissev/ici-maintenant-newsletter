@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-all font-family="PPNeueMachina, Arial, sans-serif"/>
+      <mj-all font-family="PPNeueMachina, Helvetica, Arial, sans-serif"/>
       <mj-image padding="0px"/>
     </mj-attributes>
     <mj-preview>
@@ -10,8 +10,23 @@
     <mj-breakpoint width="480px"/>
     <mj-font name="PPNeueMachina" href="https://matissev.github.io/ici-maintenant-newsletter/fonts/stylesheet.css"/>
     <mj-style>
+      .email-text div {
+        font-size: initial!important;
+        font-family: initial!important;
+      }
+
       .header-labels div {
         font-family:"PPNeueMachina", "Lucida Sans Unicode", "Lucida Grande", sans-serif!important;
+      }
+
+      .contact-line {
+        display: inline-block;
+        width: 100%;
+        padding-top: 5px;
+      }
+
+      .contact-title {
+        font-weight: bold;
       }
 
       @media (max-width: 480px) {
@@ -20,14 +35,35 @@
           min-width: 100%!important;
         }
 
-        .mobile-lead {
+        .mobile-full-image {
+          padding:0px!important;
+        }
+
+        .mobile-lead, .mobile-image-padding-top {
           padding-top: 30px!important;
+        }
+
+        .last-contact {
+          padding-top: 20px!important;
+        }
+
+        .header-labels div {
+          padding-top: 10px;
+          text-align: left!important;
         }
       }
     </mj-style>
   </mj-head>
   <mj-body background-color="white">
-    <mj-text font-size="initial" font-family="initial">This is where the normal text is</mj-text>
+    <mj-column width="100%">
+      <mj-text padding="0" css-class="email-text">This is where the normal text is</mj-text>
+    </mj-column>
+
+    <mj-section>
+      <mj-column width="300px">
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title.jpg" alt="" align="left" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
 
     <mj-section>
       <mj-column>
@@ -46,8 +82,10 @@
           <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg" align="center"></mj-image>
       </mj-column>
       <mj-column>
-          <mj-text css-class="mobile-lead" font-weight="bold" font-size="16px" padding="5px 20px 0px 15px">
-            Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, Ici & Maintenant est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique.
+          <mj-text css-class="mobile-lead" font-weight="bold" font-size="16px" padding="5px 20px 0px 0px"> <!-- initially 15px as left padding -->
+            <span style="line-height:18px">
+              Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, Ici & Maintenant est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique.
+            </span>
           </mj-text>
       </mj-column>
     </mj-section>
@@ -59,11 +97,40 @@
     </mj-section>
 
     <mj-section>
-      <mj-column width="60%">
-        
+      <mj-column width="55%" vertical-align="bottom">
+        <mj-text padding="5px 20px 20px 0px" font-size="13px"> <!-- initially 15px as left padding -->
+          <span style="line-height:18px">
+            Installés au centre de la tour LU, les deux luminaires intègrent huit enceintes et reprennent la symbolique du lustre. Ils se laissent découvrir tout au long du parcours de l’escalier. Construits de matériaux faisant écho au passé industriel de la tour, ils soulignent la verticalité de l’édifice et le transforment en espace de flânerie et de contemplation.
+            <br>
+            <br>
+            Ces sculptures jouent une composition générative, « vivante », toujours en évolution, qui se recompose d’elle-même indéfiniment et dialogue avec les sons de la vie extérieure.
+          </span>
+        </mj-text>
+        <mj-image css-class="mobile-full-image" src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg" alt="" padding-right="20px"/>
       </mj-column>
-      <mj-column width="40%">
-        
+      <mj-column width="45%">
+        <mj-image css-class="mobile-image-padding-top" src="https://matissev.github.io/ici-maintenant-newsletter/tourlu.jpg" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="20%">
+      </mj-column>
+      <mj-column width="220px">
+        <mj-text padding="0px 20px 0px 0px">
+          <span class="contact-line contact-title">Matisse Vrignaud</span>
+          <span class="contact-line">matissev.com</span>
+          <span class="contact-line">06 86 63 56 93</span>
+          <span class="contact-line">matisse.vrignaud@gmail.com</span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="152px">
+        <mj-text padding="0px" css-class="last-contact">
+          <span class="contact-line contact-title">Studio AA</span>
+          <span class="contact-line">studioaa.org</span>
+          <span class="contact-line">06 79 34 65 03</span>
+          <span class="contact-line">contact@studioaa.org</span>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
