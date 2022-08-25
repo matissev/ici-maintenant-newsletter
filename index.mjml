@@ -1,15 +1,15 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-all font-family="PPNeueMachinaaaa, Arial, sans-serif"/>
+      <mj-all font-family="PPNeueMachina, Arial, sans-serif"/>
     </mj-attributes>
     <mj-preview>
       This is the preview of the mail, this doesn't really have to be used
     </mj-preview>
-    <mj-font name="PPNeueMachinaaaa" href="https://matissev.github.io/ici-maintenant-newsletter/fonts/stylesheet.css"/>
+    <mj-font name="PPNeueMachina" href="https://matissev.github.io/ici-maintenant-newsletter/fonts/stylesheet.css"/>
     <mj-style inline="inline">
       .header-labels div {
-        <!-- font-family:"PP Neue Machinaaaa", "Lucida Sans Unicode", "Lucida Grande", sans-serif!important; -->
+        font-family:"PPNeueMachina", "Lucida Sans Unicode", "Lucida Grande", sans-serif!important;
       }
     </mj-style>
   </mj-head>
