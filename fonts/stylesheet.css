@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'PP Neue Machina';
-    src: url('PPNeueMachina-Regular.woff2') format('woff2'),
-        url('PPNeueMachina-Regular.woff') format('woff');
+    font-family: 'PP Neue Machinaaaa';
+    src: url('https://matissev.github.io/ici-maintenant-newsletter/fonts/PPNeueMachina-Regular.woff2') format('woff2'),
+        url('https://matissev.github.io/ici-maintenant-newsletter/fonts/PPNeueMachina-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'PP Neue Machina';
-    src: url('PPNeueMachina-Ultrabold.woff2') format('woff2'),
-        url('PPNeueMachina-Ultrabold.woff') format('woff');
+    font-family: 'PP Neue Machinaaaa';
+    src: url('https://matissev.github.io/ici-maintenant-newsletter/fonts/PPNeueMachina-Ultrabold.woff2') format('woff2'),
+        url('https://matissev.github.io/ici-maintenant-newsletter/fonts/PPNeueMachina-Ultrabold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
