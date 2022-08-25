@@ -1,0 +1,40 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="PPNeueMachina-Regular, Arial, sans-serif"/>
+    </mj-attributes>
+    <mj-preview>
+      This is the preview of the mail, this doesn't really have to be used
+    </mj-preview>
+    <mj-font name="PPNeueMachina" href="linkToCSSfontfaceFile"/>
+    <mj-style inline="inline">
+      .header-labels div {
+        font-family:"PPNeueMachina-Regular, Lucida Sans Unicode", "Lucida Grande", sans-serif!important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="white">
+    <mj-text font-size="initial" font-family="initial">This is where the normal text is</mj-text>
+
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="header-labels">Installation Sonore</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text css-class="header-labels">Tour du Lieu Unique — Nantes</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text css-class="header-labels">2021 → 2025</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column>
+            <mj-image src="img1.jpg"></mj-image>
+        </mj-column>
+        <mj-column>
+            <mj-image src="img1.jpg"></mj-image>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
