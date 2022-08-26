@@ -10,11 +10,6 @@
     <mj-breakpoint width="480px"/>
     <mj-font name="PPNeueMachina" href="https://matissev.github.io/ici-maintenant-newsletter/fonts/stylesheet.css"/>
     <mj-style>
-      .email-text div {
-        font-size: initial!important;
-        font-family: initial!important;
-      }
-
       .header-labels div {
         font-family:"PPNeueMachina", "Lucida Sans Unicode", "Lucida Grande", sans-serif!important;
       }
@@ -22,11 +17,22 @@
       .contact-line {
         display: inline-block;
         width: 100%;
-        padding-top: 5px;
+        padding-top: 8px;
+        color:black;
       }
 
       .contact-title {
         font-weight: bold;
+      }
+
+		  .video-image {
+		  	opacity: 1;
+		  	-webkit-transition: opacity 0.3s ease;
+		  	transition: opacity 0.3s ease;
+		  }
+
+      .video-image:hover {
+        opacity: 0.6;
       }
 
       @media (max-width: 480px) {
@@ -44,7 +50,7 @@
         }
 
         .last-contact {
-          padding-top: 20px!important;
+          padding-top: 30px!important;
         }
 
         .header-labels div {
@@ -55,17 +61,13 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="white">
-    <mj-column width="100%">
-      <mj-text padding="0" css-class="email-text">This is where the normal text is</mj-text>
-    </mj-column>
-
-    <mj-section>
-      <mj-column width="300px">
-        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title.jpg" alt="" align="left" padding="0px"></mj-image>
+    <mj-section padding="50px 0px 0px 0px">
+      <mj-column>
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title.jpg" alt="" width="350px" align="left" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section padding="15px 0px 60px 0px">
       <mj-column>
         <mj-text css-class="header-labels" padding="0px" align="left">Installation Sonore</mj-text>
       </mj-column>
@@ -77,7 +79,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section css-class="mobile-full-image" direction="rtl">
+    <mj-section css-class="mobile-full-image" direction="rtl" padding="00px 0px 25px 0px">
       <mj-column>
           <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg" align="center"></mj-image>
       </mj-column>
@@ -90,13 +92,13 @@
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section padding="0px 0px 25px 0px">
       <mj-column>
-        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/video-thumbnail.jpg" alt="" />
+        <mj-image css-class="video-image" src="https://matissev.github.io/ici-maintenant-newsletter/video-thumbnail.jpg" alt="" href="https://www.youtube.com/watch?v=8gNM4IdmOCU" target="_blank"/>
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section padding="0px 0px 0px 0px">
       <mj-column width="55%" vertical-align="bottom">
         <mj-text padding="5px 20px 20px 0px" font-size="13px"> <!-- initially 15px as left padding -->
           <span style="line-height:18px">
@@ -113,23 +115,23 @@
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section padding="50px 0px 40px 0px">
       <mj-column width="20%">
       </mj-column>
       <mj-column width="220px">
-        <mj-text padding="0px 20px 0px 0px">
+        <mj-text padding="0px 20px 0px 0px" font-size="13px">
           <span class="contact-line contact-title">Matisse Vrignaud</span>
-          <span class="contact-line">matissev.com</span>
-          <span class="contact-line">06 86 63 56 93</span>
-          <span class="contact-line">matisse.vrignaud@gmail.com</span>
+          <a href="https://matissev.com" target="_blank" class="contact-line">matissev.com</a>
+          <a href="tel:+33686635693" class="contact-line">06 86 63 56 93</a>
+          <a href="mailto:matisse.vrignaud@gmail.com" class="contact-line">matisse.vrignaud@gmail.com</a>
         </mj-text>
       </mj-column>
       <mj-column width="152px">
-        <mj-text padding="0px" css-class="last-contact">
+        <mj-text padding="0px" css-class="last-contact" font-size="13px">
           <span class="contact-line contact-title">Studio AA</span>
-          <span class="contact-line">studioaa.org</span>
-          <span class="contact-line">06 79 34 65 03</span>
-          <span class="contact-line">contact@studioaa.org</span>
+          <a href="https://studioaa.org" target="_blank" class="contact-line">studioaa.org</a>
+          <a href="tel:+33679346503" class="contact-line">06 79 34 65 03</a>
+          <a href="mailto:contact@studioaa.org" class="contact-line">contact@studioaa.org</a>
         </mj-text>
       </mj-column>
     </mj-section>
