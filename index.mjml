@@ -37,12 +37,7 @@
       }
 
       @media (max-width: 480px) {
-        .mobile-full-image td {
-          width: 100%!important;
-          min-width: 100%!important;
-        }
-
-        .mobile-full-image {
+        .mobile-no-padding {
           padding:0px!important;
         }
 
@@ -61,82 +56,101 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body>
-    <mj-wrapper background-color="white">
-      <mj-section padding="20px 0px 0px 0px">
-        <mj-column>
-          <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title.jpg" alt="" width="350px" align="left" padding="0px"></mj-image>
-        </mj-column>
-      </mj-section>
+  <mj-body background-color="white">
+    <mj-section padding="20px 0px 0px 0px">
+      <mj-column>
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title.png" alt="" width="350px" align="left" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
 
-      <mj-section padding="15px 0px 60px 0px">
-        <mj-column>
-          <mj-text css-class="header-labels" padding="0px" align="left">Installation Sonore</mj-text>
-        </mj-column>
-        <mj-column>
-          <mj-text css-class="header-labels" padding="0px" align="center">Tour LU — Nantes</mj-text>
-        </mj-column>
-        <mj-column>
-          <mj-text css-class="header-labels" padding="0px" align="right">2021 → 2025</mj-text>
-        </mj-column>
-      </mj-section>
+    <mj-section padding="15px 0px 60px 0px">
+      <mj-column>
+        <mj-text css-class="header-labels" padding="0px" align="left">Installation Sonore</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text css-class="header-labels" padding="0px" align="center">Tour LU — Nantes</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text css-class="header-labels" padding="0px" align="right">2021 → 2025</mj-text>
+      </mj-column>
+    </mj-section>
 
-      <mj-section css-class="mobile-full-image" direction="rtl" padding="00px 0px 25px 0px">
-        <mj-column>
-            <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg" align="center"></mj-image>
-        </mj-column>
-        <mj-column>
-            <mj-text css-class="mobile-lead" font-weight="bold" font-size="16px" padding="5px 20px 0px 0px"> <!-- initially 15px as left padding -->
-              <span style="line-height:18px">
-                Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, Ici & Maintenant est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique.
-              </span>
-            </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <mj-section padding="0px 0px 25px 0px">
-        <mj-column>
-          <mj-image css-class="video-image" src="https://matissev.github.io/ici-maintenant-newsletter/video-thumbnail.jpg" alt="" href="https://www.youtube.com/watch?v=8gNM4IdmOCU" target="_blank"/>
-        </mj-column>
-      </mj-section>
-
-      <mj-section padding="0px 0px 0px 0px">
-        <mj-column width="55%" vertical-align="bottom">
-          <mj-text padding="5px 20px 20px 0px" font-size="13px"> <!-- initially 15px as left padding -->
+    <mj-section direction="rtl" padding="00px 0px 25px 0px">
+      <mj-column>
+          <mj-image fluid-on-mobile="true" src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg" align="center"></mj-image>
+      </mj-column>
+      <mj-column>
+          <mj-text css-class="mobile-lead" font-weight="bold" font-size="16px" padding="5px 20px 0px 0px"> <!-- initially 15px as left padding -->
             <span style="line-height:18px">
-              Installés au centre de la tour LU, les deux luminaires intègrent huit enceintes et reprennent la symbolique du lustre. Ils se laissent découvrir tout au long du parcours de l’escalier. Construits de matériaux faisant écho au passé industriel de la tour, ils soulignent la verticalité de l’édifice et le transforment en espace de flânerie et de contemplation.
-              <br>
-              <br>
-              Ces sculptures jouent une composition générative, « vivante », toujours en évolution, qui se recompose d’elle-même indéfiniment et dialogue avec les sons de la vie extérieure.
+              Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, Ici & Maintenant est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique.
             </span>
           </mj-text>
-          <mj-image css-class="mobile-full-image" src="https://matissev.github.io/ici-maintenant-newsletter/img3.jpg" alt="" padding-right="20px"/>
-        </mj-column>
-        <mj-column width="45%">
-          <mj-image css-class="mobile-image-padding-top" src="https://matissev.github.io/ici-maintenant-newsletter/img2.jpg" alt="" />
-        </mj-column>
-      </mj-section>
+      </mj-column>
+    </mj-section>
 
-      <mj-section padding="50px 0px 40px 0px">
-        <mj-column width="20%">
-        </mj-column>
-        <mj-column width="220px">
-          <mj-text padding="0px 20px 0px 0px" font-size="13px">
-            <span class="contact-line contact-title">Matisse Vrignaud</span>
-            <a href="https://matissev.com" target="_blank" class="contact-line">matissev.com</a>
-            <a href="tel:+33686635693" class="contact-line">06 86 63 56 93</a>
-            <a href="mailto:matisse.vrignaud@gmail.com" class="contact-line">matisse.vrignaud@gmail.com</a>
-          </mj-text>
-        </mj-column>
-        <mj-column width="152px">
-          <mj-text padding="0px" css-class="last-contact" font-size="13px">
-            <span class="contact-line contact-title">Studio AA</span>
-            <a href="https://studioaa.org" target="_blank" class="contact-line">studioaa.org</a>
-            <a href="tel:+33679346503" class="contact-line">06 79 34 65 03</a>
-            <a href="mailto:contact@studioaa.org" class="contact-line">contact@studioaa.org</a>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
+    <mj-section padding="0px 0px 25px 0px">
+      <mj-column>
+        <mj-image css-class="video-image" src="https://matissev.github.io/ici-maintenant-newsletter/video-thumbnail.jpg" alt="" href="https://www.youtube.com/watch?v=4TVvxERcZPg" target="_blank"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px 0px 0px 0px">
+      <mj-column width="55%" vertical-align="bottom">
+        <mj-text padding="5px 20px 20px 0px" font-size="13px"> <!-- initially 15px as left padding -->
+          <span style="line-height:18px">
+            Installés au centre de la tour LU, les deux luminaires intègrent huit enceintes et reprennent la symbolique du lustre. Ils se laissent découvrir tout au long du parcours de l’escalier. Construits de matériaux faisant écho au passé industriel de la tour, ils soulignent la verticalité de l’édifice et le transforment en espace de flânerie et de contemplation.
+            <br>
+            <br>
+            Ces sculptures jouent une composition générative, «&#8239;vivante&#8239;», toujours en évolution, qui se recompose d’elle-même indéfiniment et dialogue avec les sons de la vie extérieure.
+          </span>
+        </mj-text>
+        <mj-image css-class="mobile-no-padding" fluid-on-mobile="true" src="https://matissev.github.io/ici-maintenant-newsletter/img3.jpg" alt="" padding-right="20px"/>
+      </mj-column>
+      <mj-column width="45%">
+        <mj-image css-class="mobile-image-padding-top" src="https://matissev.github.io/ici-maintenant-newsletter/img2.jpg" fluid-on-mobile="true" alt="" align="left"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="50px 0px 40px 0px">
+      <mj-column width="25%">
+      </mj-column>
+      <mj-column width="170px">
+        <mj-text padding="0px 20px 0px 0px" font-size="13px">
+          <span class="contact-line contact-title">Matisse Vrignaud</span>
+          <a href="https://matissev.com" target="_blank" class="contact-line">matissev.com</a>
+          <a href="tel:+33686635693" class="contact-line">06 86 63 56 93</a>
+          <a href="mailto:hello@matissev.com" class="contact-line">hello@matissev.com</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="152px">
+        <mj-text padding="0px" css-class="last-contact" font-size="13px">
+          <span class="contact-line contact-title">Studio AA</span>
+          <a href="https://studioaa.org" target="_blank" class="contact-line">studioaa.org</a>
+          <a href="tel:+33679346503" class="contact-line">06 79 34 65 03</a>
+          <a href="mailto:contact@studioaa.org" class="contact-line">contact@studioaa.org</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="logos/tolefi.png" alt="" />
+      </mj-column>
+      <mj-column>
+        <mj-image src="logos/lu.png" alt="" />
+      </mj-column>
+      <mj-column>
+        <mj-image src="logos/pays-de-la-loire.png" alt="" />
+      </mj-column>
+      <mj-column>
+        <mj-image src="logos/loire-atlantique.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <!-- <mj-section padding="0px">
+      <mj-column>
+        <mj-image width="1px" src="https://pastepixel.com/image/DTCDc4UpdswacwRe5uxB.png" alt="" />
+      </mj-column>
+    </mj-section> -->
   </mj-body>
 </mjml>
