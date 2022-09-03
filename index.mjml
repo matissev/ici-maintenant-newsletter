@@ -59,7 +59,7 @@
   <mj-body background-color="white">
     <mj-section padding="20px 0px 0px 0px">
       <mj-column>
-        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title.png" alt="" width="350px" align="left" padding="0px"></mj-image>
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title-fr.png" alt="" width="350px" align="left" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -82,7 +82,7 @@
       <mj-column>
           <mj-text css-class="mobile-lead" font-weight="bold" font-size="16px" padding="5px 20px 0px 0px"> <!-- initially 15px as left padding -->
             <span style="line-height:18px">
-              Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, Ici & Maintenant est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique.
+              Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, « Ici, Maintenant » est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique, à Nantes.
             </span>
           </mj-text>
       </mj-column>
@@ -98,10 +98,10 @@
       <mj-column width="55%" vertical-align="bottom">
         <mj-text padding="5px 20px 20px 0px" font-size="13px"> <!-- initially 15px as left padding -->
           <span style="line-height:18px">
-            Installés au centre de la tour LU, les deux luminaires intègrent huit enceintes et reprennent la symbolique du lustre. Ils se laissent découvrir tout au long du parcours de l’escalier. Construits de matériaux faisant écho au passé industriel de la tour, ils soulignent la verticalité de l’édifice et le transforment en espace de flânerie et de contemplation.
+            Installés au centre de la tour LU, les deux luminaires reprennent la symbolique du lustre et se laissent découvrir tout au long du parcours de l’escalier. Faits de matériaux évoquant le passé industriel de la tour, ils soulignent la verticalité de l’édifice et le transforment en espace de contemplation.
             <br>
             <br>
-            Ces sculptures jouent une composition générative, «&#8239;vivante&#8239;», toujours en évolution, qui se recompose d’elle-même indéfiniment et dialogue avec les sons de la vie extérieure.
+            Ces sculptures jouent une composition générative. Sous la forme d'un programme, elle se recompose indéfiniment et dialogue avec les sons de la vie extérieure (voitures, piétons, trams…), faisant écho à la manière dont nous nous approprions l’Histoire, non comme une chose figée, mais encore active et malléable dans nos esprits.
           </span>
         </mj-text>
         <mj-image css-class="mobile-no-padding" fluid-on-mobile="true" src="https://matissev.github.io/ici-maintenant-newsletter/img3.jpg" alt="" padding-right="20px"/>
@@ -134,16 +134,16 @@
 
     <mj-section>
       <mj-column>
-        <mj-image src="logos/tolefi.png" alt="" />
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/logos/tolefi.png" alt="" />
       </mj-column>
       <mj-column>
-        <mj-image src="logos/lu.png" alt="" />
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/logos/lu.png" alt="" />
       </mj-column>
       <mj-column>
-        <mj-image src="logos/pays-de-la-loire.png" alt="" />
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/logos/pays-de-la-loire.png" alt="" />
       </mj-column>
       <mj-column>
-        <mj-image src="logos/loire-atlantique.png" alt="" />
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/logos/loire-atlantique.png" alt="" />
       </mj-column>
     </mj-section>
 
