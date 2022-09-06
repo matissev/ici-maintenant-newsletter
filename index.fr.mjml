@@ -59,7 +59,7 @@
   <mj-body background-color="white">
     <mj-section padding="20px 0px 0px 0px">
       <mj-column>
-        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title-fr.png" alt="" width="350px" align="left" padding="0px"></mj-image>
+        <mj-image src="https://matissev.github.io/ici-maintenant-newsletter/title-fr.png" width="350px" align="left" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -77,12 +77,12 @@
 
     <mj-section direction="rtl" padding="00px 0px 25px 0px">
       <mj-column>
-          <mj-image fluid-on-mobile="true" src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg" align="center"></mj-image>
+          <mj-image fluid-on-mobile="true" src="https://matissev.github.io/ici-maintenant-newsletter/img1.jpg"></mj-image>
       </mj-column>
       <mj-column>
           <mj-text css-class="mobile-lead" font-weight="bold" font-size="16px" padding="5px 20px 0px 0px"> <!-- initially 15px as left padding -->
             <span style="line-height:18px">
-              Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, « Ici, Maintenant » est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique, à Nantes.
+              Collaboration entre le studio de design Studio AA et le compositeur Matisse Vrignaud, « Ici, Maintenant » est une installation sonore et lumineuse. Elle accompagne l’exposition permanente retraçant l’histoire du Lieu Unique, à Nantes.
             </span>
           </mj-text>
       </mj-column>
@@ -90,26 +90,35 @@
 
     <mj-section padding="0px 0px 25px 0px">
       <mj-column>
-        <mj-image css-class="video-image" src="https://matissev.github.io/ici-maintenant-newsletter/video-thumbnail.jpg" alt="" href="https://www.youtube.com/watch?v=4TVvxERcZPg" target="_blank"/>
+        <mj-image css-class="video-image" src="https://matissev.github.io/ici-maintenant-newsletter/video-thumbnail.jpg" href="https://www.youtube.com/watch?v=4TVvxERcZPg" target="_blank"/>
       </mj-column>
     </mj-section>
 
     <mj-section padding="0px 0px 0px 0px">
-      <mj-column width="55%" vertical-align="bottom">
+      <mj-column width="51%" vertical-align="bottom">
         <mj-text padding="5px 20px 20px 0px" font-size="13px"> <!-- initially 15px as left padding -->
           <span style="line-height:18px">
-            Installés au centre de la tour LU, les deux luminaires reprennent la symbolique du lustre et se laissent découvrir tout au long du parcours de l’escalier. Faits de matériaux évoquant le passé industriel de la tour, ils soulignent la verticalité de l’édifice et le transforment en espace de contemplation.
+            Installés au centre de la tour LU, les deux luminaires reprennent la symbolique du lustre et se laissent découvrir tout au long du parcours de l’escalier. Faits de matériaux évoquant le passé industriel de la tour, ils soulignent la verticalité de l’édifice et le transforment en espace de contemplation. Les lustres, intégrant huit enceintes, permettent la spatialisation des sons dans tout l'escalier.
             <br>
             <br>
-            Ces sculptures jouent une composition générative. Sous la forme d'un programme, elle se recompose indéfiniment et dialogue avec les sons de la vie extérieure (voitures, piétons, trams…), faisant écho à la manière dont nous nous approprions l’Histoire, non comme une chose figée, mais encore active et malléable dans nos esprits.
+            Ces sculptures jouent une composition générative multiphonique. Sous la forme d'un programme, elle se recompose indéfiniment et dialogue avec les sons de la vie extérieure (voitures, piétons, trams…), faisant écho à la manière dont nous nous approprions l’Histoire, non comme une chose figée, mais encore active et malléable dans nos esprits.
           </span>
         </mj-text>
         <mj-image css-class="mobile-no-padding" fluid-on-mobile="true" src="https://matissev.github.io/ici-maintenant-newsletter/img3.jpg" alt="" padding-right="20px"/>
       </mj-column>
-      <mj-column width="45%">
+      <mj-column width="49%">
         <mj-image css-class="mobile-image-padding-top" src="https://matissev.github.io/ici-maintenant-newsletter/img2.jpg" fluid-on-mobile="true" alt="" align="left"/>
       </mj-column>
     </mj-section>
+
+    <!-- <mj-section>
+      <mj-column>
+        <mj-text>
+          Plus d'informations disponibles sur <a href="https://matissev.com/fr/ici-maintenant/">cette page</a>
+          Plus d'informations disponibles sur <a href="https://www.studioaa.org/ici-maintenant">cette page</a>
+        </mj-text>
+      </mj-column>
+    </mj-section> -->
 
     <mj-section padding="50px 0px 40px 0px">
       <mj-column width="25%">
@@ -120,6 +129,14 @@
           <a href="https://matissev.com" target="_blank" class="contact-line">matissev.com</a>
           <a href="tel:+33686635693" class="contact-line">06 86 63 56 93</a>
           <a href="mailto:hello@matissev.com" class="contact-line">hello@matissev.com</a>
+          <a href="https://instagram.com/matisse.y/"  target="_blank" class="contact-line" style="margin-top:10px">
+            <img src="https://matissev.github.io/ici-maintenant-newsletter/logos/instagram.png" alt="Logo Instagram" width="14"/>
+            @matisse.y
+          </a>
+          <a href="https://linkedin.com/in/matissev"  target="_blank" class="contact-line">
+            <img src="https://matissev.github.io/ici-maintenant-newsletter/logos/linkedin.png" alt="Logo LinkedIn" width="14"/>
+            matissev
+          </a>
         </mj-text>
       </mj-column>
       <mj-column width="152px">
@@ -128,6 +145,14 @@
           <a href="https://studioaa.org" target="_blank" class="contact-line">studioaa.org</a>
           <a href="tel:+33679346503" class="contact-line">06 79 34 65 03</a>
           <a href="mailto:contact@studioaa.org" class="contact-line">contact@studioaa.org</a>
+          <a href="https://instagram.com/studio.a.a/"  target="_blank" class="contact-line" style="margin-top:10px">
+            <img src="https://matissev.github.io/ici-maintenant-newsletter/logos/instagram.png" alt="Logo Instagram" width="14"/>
+            @studio.a.a
+          </a>
+          <a href="https://www.linkedin.com/company/studio_aa/"  target="_blank" class="contact-line">
+            <img src="https://matissev.github.io/ici-maintenant-newsletter/logos/linkedin.png" alt="Logo LinkedIn" width="14"/>
+            studio_aa
+          </a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -147,10 +172,10 @@
       </mj-column>
     </mj-section>
 
-    <!-- <mj-section padding="0px">
+    <mj-section padding="0px">
       <mj-column>
         <mj-image width="1px" src="https://pastepixel.com/image/DTCDc4UpdswacwRe5uxB.png" alt="" />
       </mj-column>
-    </mj-section> -->
+    </mj-section>
   </mj-body>
 </mjml>
